@@ -9,4 +9,8 @@ Partial Public Class Form1
     Public Sub New()
         InitializeComponent()
     End Sub
+
+    Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
+        MsgBox("클릭 이벤트")
+    End Sub
 End Class

@@ -27,11 +27,11 @@
         Me.LayoutControl1 = New DevExpress.XtraLayout.LayoutControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.Root = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem1 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem2 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LayoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl1.SuspendLayout()
@@ -73,6 +73,15 @@
         Me.SimpleButton1.TabIndex = 4
         Me.SimpleButton1.Text = "GitTest"
         '
+        'LabelControl2
+        '
+        Me.LabelControl2.Location = New System.Drawing.Point(12, 65)
+        Me.LabelControl2.Name = "LabelControl2"
+        Me.LabelControl2.Size = New System.Drawing.Size(174, 18)
+        Me.LabelControl2.StyleController = Me.LayoutControl1
+        Me.LabelControl2.TabIndex = 1
+        Me.LabelControl2.Text = "2. Git Repo에 프로젝트 열기"
+        '
         'Root
         '
         Me.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
@@ -107,15 +116,6 @@
         Me.LayoutControlItem2.Size = New System.Drawing.Size(423, 22)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
-        '
-        'LabelControl2
-        '
-        Me.LabelControl2.Location = New System.Drawing.Point(12, 65)
-        Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(174, 18)
-        Me.LabelControl2.StyleController = Me.LayoutControl1
-        Me.LabelControl2.TabIndex = 1
-        Me.LabelControl2.Text = "2. Git Repo에 프로젝트 열기"
         '
         'LayoutControlItem3
         '
