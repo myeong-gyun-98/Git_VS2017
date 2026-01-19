@@ -11,6 +11,6 @@ Partial Public Class Form1
     End Sub
 
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
-        MsgBox("클릭 이벤트")
+        MsgBox("클릭 이벤트2")
     End Sub
 End Class
